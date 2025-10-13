@@ -1,0 +1,7 @@
+Glossario:
+
+
+1. o que está na sessão?
+id_usuario -> id do user
+username -> username
+if_company -> se é uma conta empresarial (0 = não,1 = sim)

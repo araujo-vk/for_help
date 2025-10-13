@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forhelp</title>
+    <link rel="stylesheet" href="../styles/index.css">
+    <?php
+    session_start();
+    if(isset($_SESSION['logado'])){
+    $logado = $_SESSION['logado'];
+    $logado = 1;
+    }else{
+    $logado = 0;
+    }
+    ?>
+</head>
+<body>
+    <div id="header-container"></div>
+
+    <div id="footer-container"></div>
+    <script>
+        if (<?php echo $logado; ?> === 1) {
+            fetch('../assets/headerLogged.php')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('header-container').innerHTML = data;
+                });
+        } else {
+        fetch('../assets/headerUnlogged.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-container').innerHTML = data;
+            });
+        }
+        fetch('../assets/footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            });
+    </script>
+</body>
+</html>

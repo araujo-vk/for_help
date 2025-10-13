@@ -1,0 +1,17 @@
+A fazer:
+
+paginas
+conexão front-back
+estilização padronizada
+adicionar funcoes a botoes, e aos sites para tornarem-se responsivos
+
+Ideia central atual (12/10)
+
+concluir as funcoes base do site:
+login
+cadastro
+busca de vagas
+
+⚠️por enquanto vamos focar nisso, depois se der a gente faz outra coisa
+
+Instruções:

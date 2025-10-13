@@ -1,0 +1,12 @@
+paginaLogin.php - feito
+forhelp.php - a fazer
+aEquipe.php - a fazer
+contato.php - a fazer
+userProfile.php - feito
+companyProfile.php - a fazer
+vagaBrowser - a fazer
+vagaDetails - a fazer
+index.php - feito
+pickAccountType.php - feito
+registerCompany.php - feito
+registerUser.php - feito
